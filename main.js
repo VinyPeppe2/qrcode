@@ -46,9 +46,10 @@ bClear.addEventListener('click', () => {
     urlPaste.value = '';
     infoUser.textContent = '';
     imgQRCODE.src= '';
-    imgQRCODE.alt='';
+    imgQRCODE.alt = '';
+    imgQRCODE.target = '__blank';
     bDownload.disabled = true;
     urlPaste.focus();
 })
 
-//urlPaste.focus();
+urlPaste.focus();
